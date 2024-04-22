@@ -11,7 +11,7 @@ Para empezar, realiza un fork del repositorio principal para tener tu propia cop
 
 - Navega al [repositorio original](https://github.com/G7-Full-Stack-Java-Trainee/M3-Bases_de_Datos) en GitHub.
 - Haz clic en el botón **Fork** situado en la esquina superior derecha de la página.
-![Fork](../assets/images/fork-example.png)
+![Fork](https://github.com/G7-Full-Stack-Java-Trainee/assets/images/fork-example.png)
 
 
 ### 2. Clonar el Repositorio
@@ -21,7 +21,7 @@ Una vez que tengas el fork, clónalo para trabajar localmente en tu máquina:
 ```bash
 git clone https://github.com/G7-Full-Stack-Java-Trainee/M3-Bases_de_Datos
 ```
-![Fork](../assets/images/clone-section.png)
+![Fork](https://github.com/G7-Full-Stack-Java-Trainee/assets/images/clone-section.png)
 
 ### 3. Agrega el repositorio original como un remote
 
