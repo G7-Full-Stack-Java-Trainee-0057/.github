@@ -40,34 +40,41 @@ cd [M3-Bases_de_Datos]
 Para mantener tu fork sincronizado con el repositorio original, añádelo como un remote llamado upstream:
 
 ```bash
-git remote add upstream https://github.com/[nombre_del_usuario]/M3-Bases_de_Datos.git
+git remote add upstream https://github.com/G7-Full-Stack-Java-Trainee/M3-Bases_de_Datos
 ```
 
 Confirme que su `upstream` apunte a su fork
 
 ```bash
-gir remote -v
+git remote -v
 ```
 
-### 4. Sincronizar tu Fork
+### 4. Sincronizar tu Fork (Actualiza su local en base a su remoto)
 
-Antes de comenzar a trabajar en cambios nuevos, sincroniza tu fork:
+Antes de comenzar a trabajar en cambios nuevos, sincroniza tu fork siguiendo estos pasos:
+
+Actualizar tu Repositorio Local
+Para traer los últimos cambios del repositorio original (upstream) a tu repositorio local, utiliza:
 
 ```bash
 git fetch upstream
 ```
 
-Este comando se utiliza para actualizar tu repositorio local con los cambios del original (upstream)
+Cambiar a la Rama Principal
+Asegúrate de estar en la rama principal, main, para aplicar los cambios:
 
 ```bash
 git checkout main
 ```
 
-Este comando asegura que todos los merges o cambios que realices sean aplicados en la rama `main`.
+Fusionar los Cambios
+Finalmente, fusiona los cambios desde la rama principal del repositorio original a tu rama local `main`.
+Este proceso actualiza tu rama main local con la última versión del main en el repositorio original.
 
 ```bash
 git merge upstream/main
 ```
+
 Este proceso actualiza tu rama main local con la última versión del main del repositorio original.
 
 ## Haciendo Cambios
