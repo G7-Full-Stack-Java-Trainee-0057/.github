@@ -19,9 +19,21 @@ Para empezar, realiza un fork del repositorio principal para tener tu propia cop
 Una vez que tengas el fork, clónalo para trabajar localmente en tu máquina:
 
 ```bash
-git clone https://github.com/G7-Full-Stack-Java-Trainee/M3-Bases_de_Datos
+git clone https://github.com/[nombre_de_usuario]/M3-Bases_de_Datos
 ```
 ![Clone](assets/images/clone-section.png)
+
+Una vez clonado el repositorio en su espacio de trabajo confirme su posicion y acceda a el con la terminal:
+
+```bash
+ls
+```
+
+Posterior a eso acceda al espacio de trabajo que clono que le aparece en el listado que le da la consola al usar `ls`
+
+```bash
+cd [M3-Bases_de_Datos]
+```
 
 ### 3. Agrega el repositorio original como un remote
 
@@ -29,6 +41,12 @@ Para mantener tu fork sincronizado con el repositorio original, añádelo como u
 
 ```bash
 git remote add upstream https://github.com/[nombre_del_usuario]/M3-Bases_de_Datos.git
+```
+
+Confirme que su `upstream` apunte a su fork
+
+```bash
+gir remote -v
 ```
 
 ### 4. Sincronizar tu Fork
